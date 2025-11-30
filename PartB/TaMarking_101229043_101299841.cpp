@@ -6,6 +6,7 @@
 #include <fstream>
 #include <unistd.h>
 #include <semaphore.h>
+#include <cstring> 
 
 struct SharedExamData{
     char rubric[5]; // keeps track of the letters in rubric
