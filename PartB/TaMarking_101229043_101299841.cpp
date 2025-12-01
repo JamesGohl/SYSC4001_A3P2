@@ -63,7 +63,7 @@ int main(int argc, char *argv[]){
 
     int num_TAs = std::stoi(argv[1]);
 
-    if(num_TAs < 3){
+    if(num_TAs < 2){
         std::cout <<"To little tas\n";
         exit(0);
     }
