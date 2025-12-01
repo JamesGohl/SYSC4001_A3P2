@@ -1,7 +1,7 @@
 if [ ! -d "bin" ]; then
     mkdir bin
 else
-	rm bin/*
+	rm -f bin/*
 fi
 
-g++ -std=c++17 -g -O0 -I . -o bin/TaMarkingPartB PartB/TaMarking_101229043_101299841.cpp
+g++ -std=c++17 -g -O0 -I . -o bin/TaMarkingPartB TaMarking_101229043_101299841.cpp
